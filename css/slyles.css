@@ -71,6 +71,11 @@
 /* ======= / HEADER ======== */
 
 /* ====== HERO ======*/
+
+.hero {
+  background: #2e2f42;
+}
+
 .main-title {
   font-family: "Roboto", sans-serif;
 
@@ -81,16 +86,21 @@
 
   text-align: center;
   letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .modal-btn {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
+  font-family: "Roboto", sans-serif;
 
-  /* IRIS */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
 
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
