@@ -8,6 +8,11 @@
 
 /*  ====== BODY ====== */
 
+.page-nav :hover,
+page-nav :focus {
+  color: #404bbf;
+}
+
 .body-style {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -17,6 +22,11 @@
 
 /* ======= HEADER ======== */
 
+.address-background {
+  font-style: normal;
+}
+
+/*===== LOGO ===== */
 .logo {
   font-family: "Raleway", sans-serif;
 
@@ -29,14 +39,17 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  /* IRIS */
-
   color: #4d5ae5;
 }
 
-.logo-two {
+.logo-one {
   color: #2e2f42;
 }
+.logo-two {
+  color: #f4f4fd;
+}
+
+/*=====  / LOGO ===== */
 
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -145,8 +158,6 @@
 
   letter-spacing: 0.02em;
 
-  /* SLATE */
-
   color: #434455;
 }
 
@@ -161,25 +172,14 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
 
-.footer-text {
-  font-family: "Roboto", sans-serif;
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  /* or 150% */
-
-  letter-spacing: 0.02em;
-
-  /* CLOUD */
-}
-
 /* ======  /COMPONENTS ===== */
+
+/* =======SECTION 2 ======*/
+
+/* =====/SECTION 2==== */
 
 /* ====== TEAM CARDS ===== */
 .team-cards {
@@ -191,3 +191,24 @@
 }
 
 /* ====== /TEAM CARDS ===== */
+
+/* =======FOOTER ======== */
+
+.footer {
+  background: #2e2f42;
+}
+.footer-text {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+}
+/* =======    / FOOTER ======== */
+
+/* ======  PORTFOLIO  ======== */
+
+/* ====== / PORTFOLIO  ======== */
