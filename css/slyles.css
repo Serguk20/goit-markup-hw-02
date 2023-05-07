@@ -6,6 +6,15 @@
   text-decoration: none;
 }
 
+/*  ====== BODY ====== */
+
+.body-style {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/*  ====== /BODY ====== */
+
 /* ======= HEADER ======== */
 
 .logo {
@@ -78,6 +87,7 @@
 
 .main-title {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 
   font-weight: 700;
   font-size: 56px;
