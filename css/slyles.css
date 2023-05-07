@@ -8,6 +8,27 @@
 
 /* ======= HEADER ======== */
 
+.logo {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+
+.logo-two {
+  color: #2e2f42;
+}
+
 .menu-link {
   font-family: "Roboto", sans-serif;
 
@@ -22,7 +43,7 @@
 
 .menu-link :hover,
 .menu-link :focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 .contact-mail {
