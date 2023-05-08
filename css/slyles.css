@@ -245,4 +245,39 @@ body {
   cursor: pointer;
 }
 
+/* ====== MAIN ======*/
+.description-title {
+  font-family: "Roboto" sans-serif;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.description-text {
+  font-family: "Roboto" sans-serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #434455;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/* ====== / MAIN ======*/
+
 /* ====== / PORTFOLIO  ======== */
