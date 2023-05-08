@@ -22,6 +22,11 @@ body {
   color: #404bbf;
 }
 
+.contact-mail:hover,
+.contact-phone-number:focus {
+  color: #404bbf;
+}
+
 .body-style {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -74,7 +79,7 @@ body {
 
 .modal-btn :hover,
 .modal-btn :focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .contact-mail {
@@ -219,7 +224,10 @@ body {
 
 /* ======  PORTFOLIO  ======== */
 
-.port-btn-main {
+.port-btn-main :hover,
+.port-btn-main :focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .port-btn {
