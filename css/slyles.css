@@ -23,7 +23,11 @@ body {
 }
 
 .contact-mail:hover,
-.contact-phone-number:focus {
+.contact-mail:focus {
+  color: #404bbf;
+}
+.contact-phone-number:hover,
+.contact-phone-number {
   color: #404bbf;
 }
 
@@ -252,36 +256,20 @@ body {
 }
 
 /* ====== MAIN ======*/
-.description-title {
-  font-family: "Roboto" sans-serif;
 
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-
-  letter-spacing: 0.02em;
-
-  color: #2e2f42;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+.project-card {
 }
-.description-text {
-  font-family: "Roboto" sans-serif;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+.service-card-background {
+  background: #ffffff;
+  /* CORNFLOWER */
 
-  letter-spacing: 0.02em;
-
-  color: #434455;
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  border: 1px solid #e7e9fc;
 }
+
+.service-image {
+}
+
 /* ====== / MAIN ======*/
 
 /* ====== / PORTFOLIO  ======== */
