@@ -9,26 +9,32 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --primary-color-text: #434455;
+  --secondary-color-text: #2e2f42;
+  --accent-color: #404bbf;
+  --background-color: #ffffff;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
+  color: var(--primary-color-text);
+  background-color: var(--background-color);
 }
 
 /*  ====== BODY ====== */
 
 .page-nav :hover,
 .page-nav :focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .contact-mail:hover,
 .contact-mail:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .contact-phone-number:hover,
 .contact-phone-number {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 
 .body-style {
@@ -46,22 +52,19 @@ body {
 
 /*===== LOGO ===== */
 .logo {
-  font-family: "Raleway", sans-serif;
-
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #4d5ae5;
 }
 
 .logo-one {
-  color: #2e2f42;
+  color: var(--secondary-color-text);
 }
 .logo-two {
   color: #f4f4fd;
@@ -70,42 +73,35 @@ body {
 /*=====  / LOGO ===== */
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
-  color: #2e2f42;
+  color: var(--secondary-color-text);
 }
 
 .modal-btn :hover,
 .modal-btn :focus {
-  background: #404bbf;
+  background: var(--accent-color);
 }
 
 .contact-mail {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .contact-phone-number {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--primary-color-text);
 }
 
 /* ======= / HEADER ======== */
@@ -117,31 +113,25 @@ body {
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   font-style: normal;
-
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .modal-btn {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
-
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -152,41 +142,31 @@ body {
 /* ======  COMPONENTS ===== */
 
 .description-title {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: #2e2f42;
 }
 
 .description-text {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   color: #434455;
 }
 
 .image-description {
-  font-family: "Roboto", sans-serif;
-
+  font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: #2e2f42;
 }
 
@@ -214,11 +194,9 @@ body {
 }
 .footer-text {
   font-family: "Roboto", sans-serif;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -232,20 +210,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
   color: #4d5ae5;
-
   background: #f4f4fd;
-
   flex: none;
   order: 0;
   flex-grow: 0;
-
   cursor: pointer;
 }
 
@@ -257,17 +230,9 @@ body {
 
 /* ====== MAIN ======*/
 
-.project-card {
-}
-
 .service-card-background {
   background: #ffffff;
-  /* CORNFLOWER */
-
   border: 1px solid #e7e9fc;
-}
-
-.service-image {
 }
 
 /* ====== / MAIN ======*/
