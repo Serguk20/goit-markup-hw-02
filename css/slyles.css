@@ -107,7 +107,7 @@ body {
 
 .modal-btn :hover,
 .modal-btn :focus {
-  background-color: #404bbf;
+  background-color: var(--accent-color);
 }
 
 .modal-btn {
