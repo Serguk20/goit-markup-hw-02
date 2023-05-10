@@ -77,15 +77,10 @@ body {
   color: var(--secondary-color-text);
 }
 
-.modal-btn-extra :hover,
-.modal-btn-extra :focus {
-  background-color: var(--accent-color);
-}
-
 .modal-btn :hover,
 .modal-btn :focus {
-  background-color: #404bbf;
-  background: var(--accent-color);
+  color: #ffffff;
+  background: #404bbf;
 }
 
 .contact-mail-phone {
@@ -165,10 +160,6 @@ body {
 
 /* ======  /COMPONENTS ===== */
 
-/* =======SECTION 2 ======*/
-
-/* =====/SECTION 2==== */
-
 /* ====== TEAM CARDS ===== */
 .team-cards {
   background: #f4f4fd;
@@ -183,7 +174,7 @@ body {
 /* ======= FOOTER ======== */
 
 .footer {
-  background: #2e2f42;
+  background: var(--secondary-color-text);
 }
 .footer-text {
   font-family: var(--primary-font);
