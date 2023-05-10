@@ -35,8 +35,8 @@ body {
 
 .body-style {
   font-family: var(--primary-font);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--primary-color-text);
+  background-color: var(--background-color);
 }
 /*  ====== /BODY ====== */
 
@@ -105,8 +105,8 @@ body {
   color: #ffffff;
 }
 
-.modal-btn :hover,
-.modal-btn :focus {
+.modal-btn:hover,
+.modal-btn:focus {
   background-color: var(--accent-color);
 }
 
@@ -165,7 +165,7 @@ body {
 }
 
 .team-cards-background {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 /* ====== /TEAM CARDS ===== */
