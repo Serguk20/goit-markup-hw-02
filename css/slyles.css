@@ -77,6 +77,11 @@ body {
   color: var(--secondary-color-text);
 }
 
+.modal-btn-extra :hover,
+.modal-btn-extra :focus {
+  background-color: var(--accent-color);
+}
+
 .modal-btn :hover,
 .modal-btn :focus {
   background-color: #404bbf;
