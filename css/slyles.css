@@ -77,11 +77,6 @@ body {
   color: var(--secondary-color-text);
 }
 
-.modal-btn :hover,
-.modal-btn :focus {
-  background: #404bbf;
-}
-
 .contact-mail-phone {
   font-family: var(--primary-font);
   font-weight: 400;
@@ -108,6 +103,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.modal-btn :hover,
+.modal-btn :focus {
+  background-color: #404bbf;
 }
 
 .modal-btn {
